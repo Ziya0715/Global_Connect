@@ -156,7 +156,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section">
+      {/* <section className="section">
         <div className="container">
           <FadeUp>
             <h2 className="sectionTitle">Our Journey</h2>
@@ -170,7 +170,7 @@ export default function AboutPage() {
             </div>
           </FadeUp>
         </div>
-      </section>
+      </section> */}
 
       <section className="section sectionAlt">
         <div className="container">
