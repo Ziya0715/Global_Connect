@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Kumar",
+    "role": "HR Director, BuildCorp International",
+    "content": "GlobalConnectra delivered pre-screened candidates within two weeks. Their trade testing and documentation support made our deployment seamless.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Priya Menon",
+    "role": "Operations Manager, GulfTech Industries",
+    "content": "We've partnered with GlobalConnectra for three years. Their ethical recruitment practices and quality screening set them apart.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Ahmed Hassan",
+    "role": "Project Lead, Maldives Resort Group",
+    "content": "Fast deployment and reliable workforce — exactly what we needed for our resort construction project in Malé.",
+    "rating": 5
+  }
+]

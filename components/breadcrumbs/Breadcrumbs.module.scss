@@ -1,0 +1,73 @@
+@use "../../styles/variables" as *;
+
+.breadcrumbs {
+  background: transparent;
+  padding: 0.75rem 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 1rem 0 0;
+  background: transparent;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: $gray-text;
+}
+
+.link {
+  color: $gray-text;
+  transition: color $transition;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.current {
+  color: $primary;
+  font-weight: 600;
+}
+
+.separator {
+  color: $gray-400;
+  flex-shrink: 0;
+}
+
+.overlay {
+  .item {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .link {
+    color: rgba(255, 255, 255, 0.85);
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .current {
+    color: $white;
+    font-weight: 600;
+  }
+
+  .separator {
+    color: rgba(255, 255, 255, 0.55);
+  }
+}

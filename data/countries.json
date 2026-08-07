@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "flag": "🇱🇰",
+    "image": "https://images.unsplash.com/photo-1588258219511-64a41825c9a2?w=1200&q=80",
+    "description": "Sri Lanka offers a growing construction and manufacturing sector with strong demand for skilled engineers, supervisors, and technical workers across Colombo, Kandy, and coastal development zones.",
+    "highlights": [
+      {
+        "title": "Market Growth",
+        "content": "Infrastructure development and tourism projects are driving consistent demand for construction and engineering professionals."
+      },
+      {
+        "title": "Long Term Opportunity",
+        "content": "Major port cities and industrial zones offer stable, long-term employment for skilled and semi-skilled workers."
+      },
+      {
+        "title": "Easy Adaptation",
+        "content": "English is widely spoken in professional settings, making it easier for international candidates to integrate."
+      },
+      {
+        "title": "Faster Opportunities",
+        "content": "Streamlined recruitment processes enable quicker deployment for verified and trade-tested candidates."
+      }
+    ]
+  },
+  {
+    "slug": "maldives",
+    "name": "Maldives",
+    "flag": "🇲🇻",
+    "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1200&q=80",
+    "description": "The Maldives is experiencing rapid resort and infrastructure expansion, creating high demand for construction workers, engineers, and hospitality support staff.",
+    "highlights": [
+      {
+        "title": "Market Growth",
+        "content": "Resort development and urban infrastructure projects continue to expand across Malé and outer atolls."
+      },
+      {
+        "title": "Long Term Opportunity",
+        "content": "Multi-year resort and housing projects provide sustained employment for construction and technical trades."
+      },
+      {
+        "title": "Easy Adaptation",
+        "content": "International work environments and English communication make onboarding smooth for overseas workers."
+      },
+      {
+        "title": "Faster Opportunities",
+        "content": "High turnover in seasonal sectors means faster placement cycles for qualified candidates."
+      }
+    ]
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "image": "https://images.unsplash.com/photo-1525621486886-67540d0dff74?w=1200&q=80",
+    "description": "Singapore remains a global hub for manufacturing, logistics, and precision engineering with competitive salaries and world-class working standards.",
+    "highlights": [
+      {
+        "title": "Market Growth",
+        "content": "Advanced manufacturing and semiconductor industries continue to drive skilled workforce demand."
+      },
+      {
+        "title": "Long Term Opportunity",
+        "content": "Structured career pathways and skills upgrading programs support long-term professional growth."
+      },
+      {
+        "title": "Easy Adaptation",
+        "content": "Multicultural environment with English as the primary business language ensures smooth integration."
+      },
+      {
+        "title": "Faster Opportunities",
+        "content": "Efficient visa and employment processes enable rapid deployment for pre-screened candidates."
+      }
+    ]
+  },
+  {
+    "slug": "middle-east",
+    "name": "Middle East",
+    "flag": "🌍",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80",
+    "description": "The Middle East offers some of the world's largest construction and energy projects, with premium compensation packages for engineers, supervisors, and skilled trades.",
+    "highlights": [
+      {
+        "title": "Market Growth",
+        "content": "Mega-projects in UAE, Saudi Arabia, Qatar, and Kuwait drive massive demand for construction and engineering talent."
+      },
+      {
+        "title": "Long Term Opportunity",
+        "content": "Multi-billion dollar infrastructure programs offer decade-long employment prospects for qualified professionals."
+      },
+      {
+        "title": "Easy Adaptation",
+        "content": "Expatriate-friendly communities and established Indian workforce networks ease cultural transition."
+      },
+      {
+        "title": "Faster Opportunities",
+        "content": "High project velocity means urgent hiring needs and faster placement for trade-tested candidates."
+      }
+    ]
+  }
+]

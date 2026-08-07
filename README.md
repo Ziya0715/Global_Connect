@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GlobalConnectra Services — Corporate Website
+
+Modern, responsive corporate website for **GlobalConnectra Services Pvt. Ltd.** built with Next.js App Router.
+
+## Tech Stack
+
+- Next.js 15+ (App Router)
+- JavaScript
+- SCSS Modules
+- Shadcn-style UI (Radix primitives)
+- Lucide Icons
+- Framer Motion
+- React Hook Form + Zod
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/                  # Pages and routes
+components/           # Reusable UI components
+data/                 # JSON data (jobs, countries, testimonials)
+lib/                  # Utilities and SEO helpers
+styles/               # Global SCSS and variables
+public/               # Static assets
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Optional — set your production URL for SEO:
 
-## Deploy on Vercel
+```
+NEXT_PUBLIC_SITE_URL=https://yourdomain.com
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Sticky navbar with dropdown and mobile menu
+- 20 sample jobs with search/filter
+- Apply and enquiry forms (frontend only, console log + toast)
+- SEO metadata, sitemap, and robots.txt
+- Framer Motion animations
+- Fully responsive design
+
+## Deployment
+
+Deploy to Vercel, Netlify, or any Node.js host. Replace placeholder content, contact details, and connect forms to your backend API.

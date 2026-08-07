@@ -1,0 +1,205 @@
+@use "../../styles/variables" as *;
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid $gray-200;
+  transition: box-shadow $transition;
+
+  &.scrolled {
+    box-shadow: $shadow-md;
+  }
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: $primary;
+}
+
+.logoIcon {
+  width: 36px;
+  height: 36px;
+  background: $primary;
+  color: $white;
+  border-radius: $radius-sm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 0.875rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: $gray-700;
+  border-radius: $radius-sm;
+  transition: color $transition, background $transition;
+
+  &:hover,
+  &.active {
+    color: $primary;
+    background: $light-blue;
+  }
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  min-width: 240px;
+  background: $white;
+  border: 1px solid $gray-200;
+  border-radius: $radius-md;
+  box-shadow: $shadow-lg;
+  padding: 0.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: all $transition;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+.dropdownGroup {
+  padding: 0.25rem 0;
+}
+
+.dropdownLabel {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $gray-400;
+}
+
+.dropdownLink {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: $gray-700;
+  border-radius: $radius-sm;
+  transition: background $transition, color $transition;
+
+  &:hover {
+    background: $light-blue;
+    color: $primary;
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.hamburger {
+  display: none;
+  padding: 0.5rem;
+  color: $primary;
+
+  @media (max-width: 1024px) {
+    display: flex;
+  }
+}
+
+.mobileMenu {
+  display: none;
+  border-top: 1px solid $gray-200;
+  background: $white;
+  padding: 1rem 0 1.5rem;
+  max-height: calc(100vh - 72px);
+  overflow-y: auto;
+
+  &.open {
+    display: block;
+  }
+
+  @media (min-width: 1025px) {
+    display: none !important;
+  }
+}
+
+.mobileLink {
+  display: block;
+  padding: 0.75rem $container-padding;
+  font-weight: 500;
+  color: $gray-700;
+  border-bottom: 1px solid $gray-100;
+
+  &:hover {
+    color: $primary;
+    background: $gray-50;
+  }
+}
+
+.mobileSubLink {
+  display: block;
+  padding: 0.625rem $container-padding;
+  padding-left: calc(#{$container-padding} + 1rem);
+  font-size: 0.875rem;
+  color: $gray-600;
+
+  &:hover {
+    color: $primary;
+    background: $light-blue;
+  }
+}
+
+.mobileGroupLabel {
+  padding: 0.75rem $container-padding 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $gray-400;
+}
+
+.chevron {
+  transition: transform $transition;
+
+  &.open {
+    transform: rotate(180deg);
+  }
+}

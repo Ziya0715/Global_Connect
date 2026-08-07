@@ -1,0 +1,93 @@
+@use "../../../styles/variables" as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  border-radius: $radius-md;
+  transition: all $transition;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 2px solid transparent;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.primary {
+  background: $accent;
+  color: $white;
+  padding: 0.75rem 1.75rem;
+
+  &:hover:not(:disabled) {
+    background: $accent-hover;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+  }
+}
+
+.secondary {
+  background: transparent;
+  color: $primary;
+  border-color: $primary;
+  padding: 0.75rem 1.75rem;
+
+  &:hover:not(:disabled) {
+    background: $primary;
+    color: $white;
+  }
+}
+
+.outline {
+  background: $white;
+  color: $primary;
+  border-color: $gray-200;
+  padding: 0.75rem 1.75rem;
+
+  &:hover:not(:disabled) {
+    border-color: $primary;
+    background: $light-blue;
+  }
+}
+
+.light {
+  background: transparent;
+  color: $white;
+  border-color: rgba(255, 255, 255, 0.7);
+  padding: 0.75rem 1.75rem;
+
+  &:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: $white;
+  }
+}
+
+.ghost {
+  background: transparent;
+  color: $gray-600;
+  padding: 0.5rem 1rem;
+
+  &:hover:not(:disabled) {
+    color: $primary;
+    background: $light-blue;
+  }
+}
+
+.sm {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+}
+
+.lg {
+  padding: 1rem 2.25rem;
+  font-size: 1rem;
+}
+
+.fullWidth {
+  width: 100%;
+}

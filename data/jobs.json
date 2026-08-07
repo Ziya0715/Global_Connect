@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Civil Engineer",
+    "country": "Sri Lanka",
+    "location": "Colombo",
+    "salary": "LKR 180,000",
+    "experience": "3 Years",
+    "category": "Construction",
+    "type": "Full Time"
+  },
+  {
+    "id": 2,
+    "title": "Welder",
+    "country": "Singapore",
+    "location": "Jurong",
+    "salary": "SGD 2,200",
+    "experience": "2 Years",
+    "category": "Manufacturing",
+    "type": "Full Time"
+  },
+  {
+    "id": 3,
+    "title": "Site Supervisor",
+    "country": "Maldives",
+    "location": "Malé",
+    "salary": "USD 1,800",
+    "experience": "5 Years",
+    "category": "Construction",
+    "type": "Full Time"
+  },
+  {
+    "id": 4,
+    "title": "Mechanical Engineer",
+    "country": "Middle East",
+    "location": "Dubai",
+    "salary": "AED 8,500",
+    "experience": "4 Years",
+    "category": "Engineering",
+    "type": "Full Time"
+  },
+  {
+    "id": 5,
+    "title": "Electrician",
+    "country": "Sri Lanka",
+    "location": "Kandy",
+    "salary": "LKR 95,000",
+    "experience": "2 Years",
+    "category": "Skilled",
+    "type": "Full Time"
+  },
+  {
+    "id": 6,
+    "title": "Production Operator",
+    "country": "Singapore",
+    "location": "Woodlands",
+    "salary": "SGD 1,800",
+    "experience": "1 Year",
+    "category": "Manufacturing",
+    "type": "Full Time"
+  },
+  {
+    "id": 7,
+    "title": "Mason",
+    "country": "Maldives",
+    "location": "Addu City",
+    "salary": "USD 1,200",
+    "experience": "3 Years",
+    "category": "Construction",
+    "type": "Full Time"
+  },
+  {
+    "id": 8,
+    "title": "HVAC Technician",
+    "country": "Middle East",
+    "location": "Abu Dhabi",
+    "salary": "AED 4,500",
+    "experience": "3 Years",
+    "category": "Skilled",
+    "type": "Full Time"
+  },
+  {
+    "id": 9,
+    "title": "Structural Engineer",
+    "country": "Sri Lanka",
+    "location": "Colombo",
+    "salary": "LKR 220,000",
+    "experience": "5 Years",
+    "category": "Engineering",
+    "type": "Full Time"
+  },
+  {
+    "id": 10,
+    "title": "CNC Operator",
+    "country": "Singapore",
+    "location": "Tuas",
+    "salary": "SGD 2,500",
+    "experience": "2 Years",
+    "category": "Manufacturing",
+    "type": "Full Time"
+  },
+  {
+    "id": 11,
+    "title": "Plumber",
+    "country": "Maldives",
+    "location": "Hulhumalé",
+    "salary": "USD 1,100",
+    "experience": "2 Years",
+    "category": "Skilled",
+    "type": "Full Time"
+  },
+  {
+    "id": 12,
+    "title": "Project Manager",
+    "country": "Middle East",
+    "location": "Riyadh",
+    "salary": "SAR 12,000",
+    "experience": "8 Years",
+    "category": "Engineering",
+    "type": "Full Time"
+  },
+  {
+    "id": 13,
+    "title": "Scaffolder",
+    "country": "Sri Lanka",
+    "location": "Galle",
+    "salary": "LKR 75,000",
+    "experience": "2 Years",
+    "category": "Semi Skilled",
+    "type": "Full Time"
+  },
+  {
+    "id": 14,
+    "title": "Quality Inspector",
+    "country": "Singapore",
+    "location": "Changi",
+    "salary": "SGD 2,800",
+    "experience": "3 Years",
+    "category": "Manufacturing",
+    "type": "Full Time"
+  },
+  {
+    "id": 15,
+    "title": "Crane Operator",
+    "country": "Maldives",
+    "location": "Malé",
+    "salary": "USD 1,600",
+    "experience": "4 Years",
+    "category": "Skilled",
+    "type": "Full Time"
+  },
+  {
+    "id": 16,
+    "title": "Safety Officer",
+    "country": "Middle East",
+    "location": "Doha",
+    "salary": "QAR 6,500",
+    "experience": "4 Years",
+    "category": "Supervisors",
+    "type": "Full Time"
+  },
+  {
+    "id": 17,
+    "title": "General Helper",
+    "country": "Sri Lanka",
+    "location": "Negombo",
+    "salary": "LKR 55,000",
+    "experience": "0-1 Year",
+    "category": "Unskilled",
+    "type": "Full Time"
+  },
+  {
+    "id": 18,
+    "title": "Fabricator",
+    "country": "Singapore",
+    "location": "Jurong",
+    "salary": "SGD 2,100",
+    "experience": "3 Years",
+    "category": "Manufacturing",
+    "type": "Full Time"
+  },
+  {
+    "id": 19,
+    "title": "Foreman",
+    "country": "Middle East",
+    "location": "Kuwait City",
+    "salary": "KWD 450",
+    "experience": "6 Years",
+    "category": "Supervisors",
+    "type": "Full Time"
+  },
+  {
+    "id": 20,
+    "title": "Architect",
+    "country": "Maldives",
+    "location": "Malé",
+    "salary": "USD 2,500",
+    "experience": "5 Years",
+    "category": "Engineering",
+    "type": "Full Time"
+  }
+]
