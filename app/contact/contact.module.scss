@@ -1,0 +1,100 @@
+@use "../../styles/variables" as *;
+
+.page {
+  padding: 1.25rem 0 3rem;
+}
+
+.ctas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ctaCard {
+  background: $white;
+  border: 1px solid $gray-200;
+  border-radius: $radius-lg;
+  padding: 1rem 1.25rem;
+  box-shadow: $shadow-sm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  @media (max-width: 560px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $primary;
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    color: $gray-500;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.formCol {
+  @media (max-width: 768px) {
+    order: -1;
+  }
+}
+
+.map {
+  background: $gray-100;
+  border: 1px solid $gray-200;
+  border-radius: $radius-lg;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $gray-400;
+  font-size: 0.875rem;
+}
+
+.details {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: $light-blue;
+  border-radius: $radius-md;
+  font-size: 0.875rem;
+  color: $gray-700;
+
+  svg {
+    color: $primary;
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+  }
+}

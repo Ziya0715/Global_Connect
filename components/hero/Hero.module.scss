@@ -143,3 +143,23 @@
     padding: 3.5rem 0 2.5rem;
   }
 }
+
+.slimHero {
+  min-height: unset;
+
+  .content {
+    grid-template-columns: 1fr;
+    padding: 2.5rem 0 1.25rem;
+  }
+
+  .heading {
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+    margin-bottom: 0.5rem;
+  }
+
+  .subheading {
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}

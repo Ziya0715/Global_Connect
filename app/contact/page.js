@@ -7,7 +7,7 @@ import { EnquiryForm } from "@/components/enquiry-form/EnquiryForm";
 import { Dialog } from "@/components/ui/dialog/Dialog";
 import { FadeUp } from "@/components/animated-wrapper/AnimatedWrapper";
 import { Phone, Mail, MapPin } from "lucide-react";
-import styles from "../page.module.scss";
+import styles from "./contact.module.scss";
 
 export default function ContactPage() {
   const [employerDialogOpen, setEmployerDialogOpen] = useState(false);
@@ -21,54 +21,54 @@ export default function ContactPage() {
         backgroundImage="https://images.unsplash.com/photo-1423666639043-f5600c068aba?w=1920&q=80"
       />
 
-      <section className="section">
+      <section className={styles.page}>
         <div className="container">
-          <div className={styles.largeCards}>
+          <div className={styles.ctas}>
             <FadeUp>
-              <div className={styles.infoCard}>
-                <h3>Employers</h3>
-                <p>Hire Skilled Workforce Today</p>
+              <div className={styles.ctaCard}>
+                <div>
+                  <h3>Employers</h3>
+                  <p>Hire Skilled Workforce Today</p>
+                </div>
                 <Button onClick={() => setEmployerDialogOpen(true)}>
                   Submit Enquiry
                 </Button>
               </div>
             </FadeUp>
-            <FadeUp delay={0.1}>
-              <div className={styles.infoCard}>
-                <h3>Candidates</h3>
-                <p>Start Your Overseas Career</p>
+            <FadeUp delay={0.05}>
+              <div className={styles.ctaCard}>
+                <div>
+                  <h3>Candidates</h3>
+                  <p>Start Your Overseas Career</p>
+                </div>
                 <Button href="/services/recruitment/job-seekers">
                   Browse Jobs
                 </Button>
               </div>
             </FadeUp>
           </div>
-        </div>
-      </section>
 
-      <section className="section sectionAlt">
-        <div className="container">
-          <div className={styles.contactGrid}>
+          <div className={styles.grid}>
             <FadeUp>
-              <div className={styles.mapPlaceholder} role="img" aria-label="Google Map placeholder">
+              <div className={styles.map} role="img" aria-label="Google Map placeholder">
                 Google Map — GlobalConnectra Office Location
               </div>
-              <div style={{ marginTop: "1.5rem" }}>
-                <div className={styles.benefitItem}>
+              <div className={styles.details}>
+                <div className={styles.detail}>
                   <Phone size={18} />
                   +91 98765 43210
                 </div>
-                <div className={styles.benefitItem}>
+                <div className={styles.detail}>
                   <Mail size={18} />
                   info@globalconnectra.com
                 </div>
-                <div className={styles.benefitItem}>
+                <div className={styles.detail}>
                   <MapPin size={18} />
                   GlobalConnectra Services Pvt. Ltd., Chennai, Tamil Nadu, India
                 </div>
               </div>
             </FadeUp>
-            <FadeUp delay={0.1}>
+            <FadeUp delay={0.05} className={styles.formCol}>
               <EnquiryForm
                 variant="contact"
                 title="Contact Us"

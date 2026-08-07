@@ -14,7 +14,7 @@ export function FeatureGrid({ items }) {
   return (
     <div className={styles.grid}>
       {items.map((item, i) => (
-        <FadeUp key={item.title} delay={i * 0.1}>
+        <FadeUp key={item.title} delay={i * 0.1} className={styles.gridItem}>
           <div className={styles.card}>
             <div className={styles.icon}>
               <item.icon size={28} aria-hidden />

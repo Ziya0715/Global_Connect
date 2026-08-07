@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" role="img" aria-label="Ministry of External Affairs, Government of India">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a6b"/>
+      <stop offset="100%" stop-color="#0b1f3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ashoka Chakra mark -->
+  <g transform="translate(48,60)">
+    <circle r="40" fill="none" stroke="url(#navy)" stroke-width="3"/>
+    <circle r="8" fill="#0b1f3a"/>
+    <g stroke="#0b1f3a" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="-36" x2="0" y2="-12"/>
+      <line x1="0" y1="12" x2="0" y2="36"/>
+      <line x1="-36" y1="0" x2="-12" y2="0"/>
+      <line x1="12" y1="0" x2="36" y2="0"/>
+      <line x1="-25.5" y1="-25.5" x2="-8.5" y2="-8.5"/>
+      <line x1="8.5" y1="8.5" x2="25.5" y2="25.5"/>
+      <line x1="25.5" y1="-25.5" x2="8.5" y2="-8.5"/>
+      <line x1="-8.5" y1="8.5" x2="-25.5" y2="25.5"/>
+      <line x1="-13.8" y1="-33.2" x2="-4.6" y2="-11.1"/>
+      <line x1="4.6" y1="11.1" x2="13.8" y2="33.2"/>
+      <line x1="33.2" y1="-13.8" x2="11.1" y2="-4.6"/>
+      <line x1="-11.1" y1="4.6" x2="-33.2" y2="13.8"/>
+      <line x1="13.8" y1="-33.2" x2="4.6" y2="-11.1"/>
+      <line x1="-4.6" y1="11.1" x2="-13.8" y2="33.2"/>
+      <line x1="33.2" y1="13.8" x2="11.1" y2="4.6"/>
+      <line x1="-11.1" y1="-4.6" x2="-33.2" y2="-13.8"/>
+      <line x1="-33.2" y1="-13.8" x2="-11.1" y2="-4.6"/>
+      <line x1="11.1" y1="4.6" x2="33.2" y2="13.8"/>
+      <line x1="-33.2" y1="13.8" x2="-11.1" y2="4.6"/>
+      <line x1="11.1" y1="-4.6" x2="33.2" y2="-13.8"/>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="108" y1="28" x2="108" y2="92" stroke="#c5cdd8" stroke-width="1.5"/>
+
+  <!-- Text -->
+  <text x="128" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#0b1f3a">
+    Ministry of External Affairs
+  </text>
+  <text x="128" y="80" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4a5568" letter-spacing="0.04em">
+    Government of India
+  </text>
+</svg>

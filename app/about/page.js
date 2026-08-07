@@ -67,7 +67,37 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section sectionAlt">
+      <section className="section sectionAlt" aria-labelledby="mea-heading">
+        <div className="container">
+          <FadeUp>
+            <div className={styles.meaSection}>
+              <div className={styles.meaLogoWrap}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/mea-logo.svg"
+                  alt="Ministry of External Affairs, Government of India"
+                  className={styles.meaLogo}
+                  width={280}
+                  height={70}
+                />
+              </div>
+              <div className={styles.meaContent}>
+                <h2 id="mea-heading" className={styles.meaTitle}>
+                  Ministry of External Affairs
+                </h2>
+                <p className={styles.meaText}>
+                  GlobalConnectra works in alignment with the guidelines of the Ministry of External
+                  Affairs (MEA), Government of India, for overseas recruitment, Recruiting Agent (RA)
+                  license support, and MEA attestation services — ensuring compliant and ethical
+                  workforce deployment.
+                </p>
+              </div>
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className={styles.twoCol}>
             <FadeUp>
@@ -88,7 +118,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section sectionAlt">
         <div className="container">
           <FadeUp>
             <h2 className="sectionTitle">Our Expertise</h2>
@@ -126,7 +156,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section sectionAlt">
+      <section className="section">
         <div className="container">
           <FadeUp>
             <h2 className="sectionTitle">Our Journey</h2>
@@ -142,7 +172,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section sectionAlt">
         <div className="container">
           <FadeUp>
             <h2 className="sectionTitle">Our Values</h2>

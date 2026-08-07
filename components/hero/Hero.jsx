@@ -12,14 +12,18 @@ export function Hero({
   highlight,
   primaryCta,
   secondaryCta,
+  compact = false,
   backgroundImage = "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80",
-  sideImage = "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
+  sideImage = "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&q=80",
 }) {
   const isHome = variant === "home";
   const isPage = variant === "page";
 
   return (
-    <section className={`${styles.hero} ${isPage ? styles.pageHero : ""}`} aria-label="Hero">
+    <section
+      className={`${styles.hero} ${isPage ? styles.pageHero : ""} ${compact ? styles.slimHero : ""}`}
+      aria-label="Hero"
+    >
       <div className={styles.background}>
         <Image
           src={backgroundImage}
