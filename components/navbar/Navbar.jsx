@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import logoImage from "@/public/images/Website - Logo 1.png";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button/Button";
@@ -55,10 +57,21 @@ export function Navbar() {
   return (
     <header className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <div className={`container ${styles.inner}`}>
-        <Link href="/" className={styles.logo} aria-label="GlobalConnectra Home">
+        {/* <Link href="/" className={styles.logo} aria-label="GlobalConnectra Home">
           <span className={styles.logoIcon}>GC</span>
           <span>GlobalConnectra</span>
-        </Link>
+        </Link> */}
+ <Link href="/" className={styles.logo} aria-label="GlobalConnectra Home">
+  <Image
+    src={logoImage}
+    alt="GlobalConnectra Logo"
+    priority
+    className={styles.logoImage}
+    width={200}
+    height={200}
+    sizes="(max-width: 480px) 120px, (max-width: 768px) 140px, (max-width: 1024px) 160px, 200px"
+  />
+</Link>
 
         <nav className={styles.nav} aria-label="Main navigation">
           {navLinks.map((link) =>

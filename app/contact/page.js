@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button/Button";
 import { EnquiryForm } from "@/components/enquiry-form/EnquiryForm";
 import { Dialog } from "@/components/ui/dialog/Dialog";
 import { FadeUp } from "@/components/animated-wrapper/AnimatedWrapper";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, FileBadge  } from "lucide-react";
 import styles from "./contact.module.scss";
 
 export default function ContactPage() {
@@ -54,6 +54,10 @@ export default function ContactPage() {
                 Google Map — GlobalConnectra Office Location
               </div>
               <div className={styles.details}>
+                  <div className={styles.detail}>
+                  <FileBadge size={18} />
+                  B-3459/TN/COM/100/5/11463/2026
+                </div>
                 <div className={styles.detail}>
                   <Phone size={18} />
                   +91 98765 43210
